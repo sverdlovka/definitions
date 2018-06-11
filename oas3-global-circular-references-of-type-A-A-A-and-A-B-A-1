@@ -97,14 +97,14 @@ components:
 # global A-B-A circular reference
 #########################################
       items:
-        $ref: "https://raw.githubusercontent.com/sverdlovka/definitions/master/oas3-global-circular-references-of-type-A-A-A-and-A-B-A-2/components/schemas/Pet"
+        $ref: "https://raw.githubusercontent.com/sverdlovka/definitions/master/oas3-global-circular-references-of-type-A-A-A-and-A-B-A-2/#/components/schemas/Pet"
     Pets:
       type: array
 #########################################
 # global A-A-A circular reference
 #########################################
       items:
-        $ref: "https://raw.githubusercontent.com/sverdlovka/definitions/master/oas3-global-circular-references-of-type-A-A-A-and-A-B-A-1/components/schemas/Pets"
+        $ref: "https://raw.githubusercontent.com/sverdlovka/definitions/master/oas3-global-circular-references-of-type-A-A-A-and-A-B-A-1/#/components/schemas/Pets"
     Error:
       required:
         - code
