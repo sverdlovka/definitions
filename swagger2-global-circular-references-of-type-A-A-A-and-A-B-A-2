@@ -221,7 +221,7 @@
 # global A-B-A circular reference
 #########################################
       "items": {
-        "$ref": "https://raw.githubusercontent.com/sverdlovka/definitions/master/swagger2-global-circular-references-of-type-A-A-A-and-A-B-A-1#definitions/NewPet"
+        "$ref": "https://raw.githubusercontent.com/sverdlovka/definitions/master/swagger2-global-circular-references-of-type-A-A-A-and-A-B-A-1#/definitions/NewPet"
       }
     }
   }
