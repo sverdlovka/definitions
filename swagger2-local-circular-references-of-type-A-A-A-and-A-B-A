@@ -203,12 +203,13 @@
         "tag": {
           "type": "string"
         }
-      }
+      },
 #########################################
 # local A-B-A circular reference
 #########################################
-      items:
-        $ref: "#/components/schemas/ErrorModel"
+      "items": {
+        "$ref": "#/definitions/ErrorModel"
+      }
     },
     "ErrorModel": {
       "type": "array",
@@ -224,12 +225,13 @@
         "message": {
           "type": "string"
         }
-      }
+      },
 #########################################
 # local A-B-A circular reference
 #########################################
-      items:
-        $ref: "#/components/schemas/NewPet"
+      "items": {
+        "$ref": "#/definitions/NewPet"
+      }
     }
   }
 }
